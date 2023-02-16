@@ -10,3 +10,4 @@ for(let i=2;i<num;i++){
 }else{
   console.log("this is not a prime number")
 }
+// ok it is right
