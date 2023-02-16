@@ -1,7 +1,12 @@
-let number = 7;
-if (number%3==0){
-  console.log("multiple of 3");
-}
-else{
-  console.log("not multiple by 3");
+let num = 6;
+let flag= false
+for(let i=2;i<num;i++){
+  if(num%i==0){
+    flag=false
+    break
+  }
+}if(flag){
+  console.log("this is a prime number")
+}else{
+  console.log("this is not a prime number")
 }
